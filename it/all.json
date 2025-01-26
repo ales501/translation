@@ -12,6 +12,15 @@
       "UPDATE": "Aggiorna",
       "VIEW": "Mostra"
     },
+    "AI": {
+      "AI_FLASHCARDS": "IA Flashcards"
+    },
+    "GENERAL": {
+      "FLASHCARD_one": "Flashcard",
+      "FLASHCARD_other": "Flashcards",
+      "NOTE_one": "nota",
+      "NOTE_other": "note"
+    },
     "NEW": "Nuovo"
   },
   "COMMUNITY": {
@@ -19,8 +28,8 @@
       "ERRORS": {
         "SHARING": {
           "NO_CONTENT": {
-            "SRC": "Il documento che stai tentando di condividere sembra un po' vuoto. Aggiungi almeno {{minimum}} rem, quindi riprova.",
-            "SUBDOCUMENT": "Uno dei tuoi documenti secondari sembra un po' vuoto. Non verrà pubblicato finché non avrà {{minimum}} rem."
+            "SRC": "Il documento che stai tentando di condividere sembra un po' vuoto. Aggiungi almeno un minimo di rem, quindi riprova.",
+            "SUBDOCUMENT": "Uno dei tuoi documenti secondari sembra un po' vuoto. Non verrà pubblicato finché non avrà un minimo di rem."
           },
           "NO_TITLE": {
             "SRC": "Il documento che stai tentando di condividere non ha un titolo. È necessario aggiungerne uno prima di pubblicarlo.",
@@ -32,18 +41,40 @@
   },
   "DOCUMENT": {
     "DIALOGS": {
-      "DELETE_ALSO_UNSHARE": "Vuoi anche annullare la condivisione del documento?"
+      "DELETE_ALSO_UNSHARE": "Vuoi anche annullare la condivisione del documento?",
+      "DELETE_CONFIRM_DIALOG": "Sei sicuro di voler eliminare questo documento?",
+      "DELETE_UNSHARE_ERROR": "Si è verificato un errore di condivisione del documento. Si prega di annullare le condivisione manualmente.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Sei offline. Si prega di non condividere il documento manualmente quando si è di nuovo online."
     },
     "MENU": {
-      "CHANGE_DOCUMENT_STATUS": "Cambia stato documento",
-      "DELETE": "Eliminare",
+      "CHANGE_DOCUMENT_ICON": "Cambia Icona Documento",
+      "CHANGE_DOCUMENT_STATUS": "Cambia Stato Documento",
+      "CHANGE_FOLDER_ICON": "Cambia Icona Cartella",
+      "CUSTOMIZE_SPACED_REPETITION": "Personalizza Ripetizione Spaziata",
+      "DELETE": "Elimina",
       "EDIT_MODE": {
-        "READ": "Modalità di sola lettura"
+        "READ": "Modalità di sola lettura",
+        "WRITE": "Modalità modifica"
       },
-      "EXPORT": "Esportare",
+      "EXPORT": "Esporta",
+      "FIND_OR_FILTER": "Trova o Filtra",
+      "MARK_AS_DOCUMENT": "Segna come Documento",
+      "MOVE": "Muovi",
       "PRINT": "Stampa",
-      "RENAME": "Rinominare",
-      "UNDO": "Disfare"
+      "RENAME": "Rinomina",
+      "SHOW_STUDY_BUTTON": "Mostra Pulsante Studio",
+      "STATS": "Statistiche",
+      "UNDO": "Disfare",
+      "UNSHARE_DOCUMENT": "Non condividere Documento",
+      "VIEW_TRASH": "Visualizza Cestino"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Bozza"
+    }
+  },
+  "FILE_UPLOADING": {
+    "SNIPPING": {
+      "PDF": "Si prega di contattare il supporto"
     }
   },
   "LANGUAGE": {
@@ -103,7 +134,7 @@
       "SORT": {
         "ASCENDING": "A -> Z",
         "BY_CREATION_TIME": "Per ora della creazione",
-        "BY_MODIFICATION": "Per modifica",
+        "BY_MODIFICATION": "Per ora di modifica",
         "BY_TITLE": "Per titolo",
         "DESCENDING": "Z -> A",
         "OLDEST_FIRST": "Prima i più vecchi",
@@ -112,6 +143,35 @@
         "RECENTLY_CREATED": "Creato di recente"
       },
       "TITLE": "Tutte le Note"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Carte Base",
+        "GENERATE_SECTION": "GENERA"
+      },
+      "COPY_IMAGE": "Copia Immagine",
+      "HIGHLIGHT": "Evidenzia",
+      "NOTE_BTN_TOOLTIP": "Nota"
+    },
+    "HEADER": {
+      "NUMBER_OF_PAGES_TOOLTIP": "numero di pagine"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Cambia tema",
+      "DOWNLOAD_PDF": "Scarica PDF",
+      "LEARN_MORE": "Impara di più",
+      "PDF_SETTINGS": "Impostazioni",
+      "SEARCH_IN_PDF": "Cerca in PDF",
+      "THEMES": {
+        "DARK": "Scuro",
+        "LIGHT": "Chiaro"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Fatto",
+      "INPUT_PLACEHOLDER": "Cerca"
     }
   },
   "POPUPS": {
@@ -156,7 +216,7 @@
         "TITLE": "Zona pericolosa"
       },
       "DANGER_ZONE_TITLE": "Zona pericolosa",
-      "IMPORT_EXPORT_TITLE": "Importazione e esportazione",
+      "IMPORT_EXPORT_TITLE": "Importa ed esporta",
       "MY_PROFILE": "Il mio profilo",
       "NAVIGATION_TITLE": "Navigazione",
       "PRIVACY": {
@@ -165,7 +225,7 @@
       },
       "PRIVACY_NOTE": "Privacy: Leggi la nostra<policyLink> politica sulla riservatezza</policyLink> o modifica le tue impostazioni nel nostro<hubLink> Centro della privacy</hubLink>.",
       "PROFILE": {
-        "KEYWORDS": "Profilo utente personale"
+        "KEYWORDS": "Profilo Utente Personale"
       },
       "PROFILE_TITLE": "Profilo",
       "SUPPORT": {
@@ -263,7 +323,7 @@
       "DAILY_TARGET": {
         "MAXIMUM_DAILY_TARGET": {
           "DESCRIPTION": "Limita il numero di flashcard sulle quali RemNote ti chiederà di esercitarti per raggiungere il tuo obiettivo giornaliero a questo valore.",
-          "TITLE": "Obiettivo giornaliero massimo"
+          "TITLE": "Obiettivo"
         },
         "TODAYS_TARGET": "Obiettivo di oggi:",
         "TODAYS_TARGET_EXPLANATION": "RemNote tenta di impostare il tuo obiettivo giornaliero in modo tale che, se raggiungi l'obiettivo ogni giorno, completerai tutte le carte destinate alla revisione nei prossimi 7 giorni. Tuttavia, l'obiettivo giornaliero non sarà mai superiore al massimo sopra impostato."
